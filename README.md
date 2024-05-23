@@ -34,3 +34,6 @@ kubectl config use-context {CLUSTER_NAME(ex: fast-cluster)}
 # 현재 클러스터 확인
 kubectl config current-context
 ```
+
+- module/yaml/karpenter/ mamage, service
+- - 서비스용 파드가 할당되는 노드랑, 매니지먼트용 파드가 할당되는 노드가 따로 관리되도록
