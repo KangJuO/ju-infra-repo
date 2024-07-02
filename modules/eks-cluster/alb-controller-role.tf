@@ -10,7 +10,7 @@ module "iam_assumable_role_alb_controller" {
 
 
 data "http" "iam_policy" {
-  url = "https://raw.githubusercontent.com/kubernetes-sigs/aws-load-balancer-controller/v2.4.1/docs/install/iam_policy.json"
+  url = "https://raw.githubusercontent.com/kubernetes-sigs/aws-load-balancer-controller/v2.6.0/docs/install/iam_policy.json"
 }
 
 # 인라인으로 정책이 추가
